@@ -30,7 +30,7 @@ Up to 10 links at once. Speech is transcribed on this device."""
 CONNECT_HINT = ("Deepmark isn't connected, so nothing was saved. To enable `--save`: "
                 "`claude mcp add -s user --transport http deepmark https://usedeepmark.com/api/mcp`, "
                 "then `/mcp` to sign in. In claude.ai: Settings > Connectors > add "
-                "`https://usedeepmark.com/api/mcp`. Deepmark is a paid service.")
+                "`https://usedeepmark.com/api/mcp`. A free Deepmark account is enough.")
 
 
 def _json(rel: str) -> dict[str, Any]:

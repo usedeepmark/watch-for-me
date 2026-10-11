@@ -28,7 +28,7 @@ Saved to Deepmark: 2 new, 1 already there.
 ```
 
 - Add `, 1 local file skipped` (or `N local files skipped`) when local files were skipped.
-- A tool error (for example no active subscription, or not a public web address) is relayed **verbatim**, once, in the same line: `Not saved to Deepmark: <error message exactly as returned>.` If some saved and some failed: `Saved to Deepmark: 1 new. Not saved: <error message>.`
+- A tool error (for example not a public web address) is relayed **verbatim**, once, in the same line: `Not saved to Deepmark: <error message exactly as returned>.` If some saved and some failed: `Saved to Deepmark: 1 new. Not saved: <error message>.`
 - Nothing else about Deepmark anywhere, including progress lines before the answer. No pitch, no feature list.
 
 ## 4. Not connected
@@ -36,5 +36,5 @@ Saved to Deepmark: 2 new, 1 already there.
 This line (without the code fence), copied character for character (not reworded into the section 3 format), at the end of the answer where the section 3 line would go. Say nothing about Deepmark or the save before it, not even in a progress line:
 
 ```
-Deepmark isn't connected, so nothing was saved. To enable `--save`: `claude mcp add -s user --transport http deepmark https://usedeepmark.com/api/mcp`, then `/mcp` to sign in. In claude.ai: Settings > Connectors > add `https://usedeepmark.com/api/mcp`. Deepmark is a paid service.
+Deepmark isn't connected, so nothing was saved. To enable `--save`: `claude mcp add -s user --transport http deepmark https://usedeepmark.com/api/mcp`, then `/mcp` to sign in. In claude.ai: Settings > Connectors > add `https://usedeepmark.com/api/mcp`. A free Deepmark account is enough.
 ```
