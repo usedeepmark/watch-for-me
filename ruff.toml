@@ -1,0 +1,3 @@
+# The skill supports Python 3.10 (CI tests it), so lint against that floor:
+# newer ruff defaults suggest 3.11-only rewrites (datetime.UTC, bare TimeoutError).
+target-version = "py310"
